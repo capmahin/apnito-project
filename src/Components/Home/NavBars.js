@@ -10,32 +10,32 @@ function NavBars() {
         <Navbar.Brand className='py-2 my-2' href="#home"><h2 className='py-3'>Apnito</h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-          <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+          <Nav className="me-auto ">
+          <Nav.Link href="#features"><h5>Home</h5></Nav.Link>
+            <Nav.Link href="#pricing"><h5>Contact</h5></Nav.Link>
             <NavDropdown title="Services" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">web Scabing</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                App Develop
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.3">Website Develop</NavDropdown.Item>
+             
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Bot Develop
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="OLP" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Online Terms</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                OFFline Terms
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.3">PBL</NavDropdown.Item>
+             
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                WorkShop
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#deets">Products</Nav.Link>
+            <Nav.Link href="#deets"><h5>Products</h5></Nav.Link>
           </Nav>
           <Nav>
           
