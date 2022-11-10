@@ -7,7 +7,7 @@ function NavBars() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Apnito</Navbar.Brand>
+        <Navbar.Brand className='py-2 my-2' href="#home"><h2 className='py-3'>Apnito</h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
