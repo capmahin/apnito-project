@@ -2,18 +2,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 
 function NavBars() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Container>
-        <Navbar.Brand className='py-2 my-2' href="#home"><h2 className='py-3'>Apnito</h2></Navbar.Brand>
+      <Container >
+        <Navbar.Brand className='py-2 my-2 d-flex justify-content-start' href="#home"><h2 className='p-2 m-2'>Apnito</h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto ">
-          <Nav.Link href="#features"><h5>Home</h5></Nav.Link>
+         
+          </Nav>
+          <Nav>
+          <Nav.Link as={Link} to="/"><h5>Home</h5></Nav.Link>
             <Nav.Link href="#pricing"><h5>Contact</h5></Nav.Link>
-            <NavDropdown title="Services" id="collasible-nav-dropdown">
+            <NavDropdown title="Services" id="collasible-nav-dropdown"  > 
               <NavDropdown.Item href="#action/3.1">web Scabing</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 App Develop
@@ -36,9 +40,6 @@ function NavBars() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#deets"><h5>Products</h5></Nav.Link>
-          </Nav>
-          <Nav>
-          
            
           </Nav>
         </Navbar.Collapse>
