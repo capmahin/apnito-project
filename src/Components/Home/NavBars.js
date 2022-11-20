@@ -28,7 +28,7 @@ function NavBars() {
                 Bot Develop
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="OLP" id="collasible-nav-dropdown">
+            <NavDropdown title="Online learning platform" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Online Terms</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 OFFline Terms
