@@ -1,0 +1,19 @@
+.explore-button {
+    padding: 0.3125rem 2.375rem;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-med);
+    color: var(--grape_yellow);
+    background-color: var(--white);
+    border: solid 1px var(--grape_yellow);
+  }
+  
+  .explore-button:hover {
+    color: var(--white);
+    background-color: var(--grape_yellow);
+    border: solid 1px var(--grape_yellow);
+  }
+  .explore-button:active {
+    color: var(--white);
+    background-color: var(--grape_yellow);
+    border: solid 1px var(--white);
+  }
