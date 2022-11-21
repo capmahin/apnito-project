@@ -1,59 +1,52 @@
-import React, { useState } from 'react';
-import { Container } from 'react-bootstrap';
-import Carousel from 'react-bootstrap/Carousel';
+import React, { useState } from "react";
+import { Carousel } from "react-bootstrap";
 
-function Slider() {
+
+const Slider = () => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
-
   return (
-   
-     <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item  >
-       
-       <div className='d-flex justify-content-center '>
-       <img
-          className=" img-fluid"
+    <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          style={{ height: "700px" }}
+          className="d-block w-100 "
           src="https://media-exp1.licdn.com/dms/image/C4D22AQHaZWnzrODTTw/feedshare-shrink_800/0/1664683857024?e=2147483647&v=beta&t=ixDfjb5QF9Hx652ECLAoEoxz3-FvIwcQk84-ptQEvMg"
-        width={800}
           alt="First slide"
         />
-       </div>
-        
-      
-      </Carousel.Item>
-      {/* <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
-        />
-
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>Apnito</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          style={{ height: "700px" }}
+          className="d-block w-100 "
+          src="https://media-exp1.licdn.com/dms/image/C4D22AQHaZWnzrODTTw/feedshare-shrink_800/0/1664683857024?e=2147483647&v=beta&t=ixDfjb5QF9Hx652ECLAoEoxz3-FvIwcQk84-ptQEvMg"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+        <h3>Apnito</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          style={{ height: "700px" }}
+          className="d-block w-100 "
+          src="https://media-exp1.licdn.com/dms/image/C4D22AQHaZWnzrODTTw/feedshare-shrink_800/0/1664683857024?e=2147483647&v=beta&t=ixDfjb5QF9Hx652ECLAoEoxz3-FvIwcQk84-ptQEvMg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>Apnito</h3>
         </Carousel.Caption>
-      </Carousel.Item> */}
+      </Carousel.Item>
     </Carousel>
-  
   );
-}
+};
 
 export default Slider;

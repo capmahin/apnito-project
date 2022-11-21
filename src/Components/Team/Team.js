@@ -15,7 +15,7 @@ const Team = () => {
   return (
     <div id="experts" className="container">
       <h2 className="text-warning text-center mt-4">Our Team</h2>
-      <div className="row">
+      <div className="row d-flex justify-center">
         {teams.map((team) => (
           <Teams key={team.id} team={team}></Teams>
         ))}
