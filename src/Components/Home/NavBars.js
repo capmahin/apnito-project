@@ -19,22 +19,26 @@ function NavBars() {
             <Nav.Link href="#pricing"><h5>Contact</h5></Nav.Link>
             <NavDropdown title="Services" id="collasible-nav-dropdown"  > 
               <NavDropdown.Item href="#action/3.1">web Scabing</NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.2">
                 App Develop
               </NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.3">Website Develop</NavDropdown.Item>
-             
+              <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Bot Develop
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Online learning platform" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Online Terms</NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.2">
                 OFFline Terms
               </NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.3">PBL</NavDropdown.Item>
-             
+              <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 WorkShop
               </NavDropdown.Item>
