@@ -1,11 +1,11 @@
 .container{
-  margin-top: 5%;
+  margin-top: 6%;
   background: linear-gradient(-100deg,var(--grape_yellow) 50%, white 50%);
-  height: 70vh;
+  height: 50vh;
 }
 
 .img-text{
-  width: 75%;
+  width: 100%;
   height: 300px;
   display: block;
   text-align: center;

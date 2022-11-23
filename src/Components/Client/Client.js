@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Container, Row } from 'react-bootstrap';
 import clinet1 from '../../image/assists/clinet/client.jpg'
 import clinet2 from '../../image/assists/clinet/client1.jpg'
 import clinet3 from '../../image/assists/clinet/client2.jpg'
@@ -8,9 +9,9 @@ import styles from "./Clinet.module.css";
 
 const Client = () => {
   return (
-    <div className={`${styles["container"]} px-2`}>
-           <div className='row'>
-                <div className='col-md-12'>
+    <Container className={`${styles["container"]} px-2`}>
+           <Row>
+                <Col xs={12}>
                 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className={`${styles["carousel-indicators"]}`}>
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -93,9 +94,9 @@ const Client = () => {
                   </div>
                  </div>
                 </div>
-                </div>
-           </div>
-    </div>
+                </Col>
+           </Row>
+    </Container>
   );
 };
 
