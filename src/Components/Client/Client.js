@@ -1,25 +1,100 @@
 import React from "react";
-import Clients from './Clients';
 import clinet1 from '../../image/assists/clinet/client.jpg'
+import clinet2 from '../../image/assists/clinet/client1.jpg'
+import clinet3 from '../../image/assists/clinet/client2.jpg'
+import clinet4 from '../../image/assists/clinet/clinet3.jpg'
+import styles from "./Clinet.module.css";
 
-const clients = [
-  { id: 1, name: "john corner", img: clinet1 },
-  { id: 2, name: "john corner", img: clinet1 },
-  { id: 3, name: "john corner", img: clinet1 },
-  { id: 4, name: "john corner",  img: clinet1 },
-  { id: 5, name: "john corner",  img: clinet1},
-  { id: 6, name: "john corner", img: clinet1},
-];
 
 const Client = () => {
   return (
-    <div id="experts" className="container">
-      <h2 className="text-warning text-center mt-5">Our Clients</h2>
-      <div className="row">
-        {clients.map((client) => (
-          <Clients key={client.id} client={client}></Clients>
-        ))}
-      </div>
+    <div className={`${styles["container"]} px-2`}>
+           <div className='row'>
+                <div className='col-md-12'>
+                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                <ol className={`${styles["carousel-indicators"]}`}>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  </ol>
+                  <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <div className='row'>
+                        <div className='col-md-4'>
+                          <div className={`${styles["single-box"]}`}>
+                             <div className={`${styles["img-area"]}`}>
+                              <img src={clinet4} alt="" />
+                             </div>
+                             <div className={`${styles["img-text"]}`}>
+                                    <h2>Person one</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur asperiores sed est libero, repudiandae recusandae rem molestiae ut sunt veritatis rerum a nihil, impedit eaque nemo, fuga dolorum distinctio! Aspernatur.</p>
+                             </div>
+                          </div>
+                        </div>
+                        <div className='col-md-4'>
+                          <div className={`${styles["single-box"]}`}>
+                             <div className={`${styles["img-area"]}`}>
+                              <img src={clinet2} alt="" />
+                             </div>
+                             <div  className={`${styles["img-text"]}`}>
+                                    <h2>Person two</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur asperiores sed est libero, repudiandae recusandae rem molestiae ut sunt veritatis rerum a nihil, impedit eaque nemo, fuga dolorum distinctio! Aspernatur.</p>
+                             </div>
+                          </div>
+                        </div>
+                        <div className='col-md-4'>
+                          <div className={`${styles["single-box"]}`}>
+                             <div className={`${styles["img-area"]}`}>
+                              <img src={clinet3} alt="" />
+                             </div>
+                             <div  className={`${styles["img-text"]}`}>
+                                    <h2>Person three</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur asperiores sed est libero, repudiandae recusandae rem molestiae ut sunt veritatis rerum a nihil, impedit eaque nemo, fuga dolorum distinctio! Aspernatur.</p>
+                             </div>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className='row'>
+                        <div className='col-md-4'>
+                          <div className={`${styles["single-box"]}`}>
+                             <div className={`${styles["img-area"]}`}>
+                              <img src={clinet4} alt="" />
+                             </div>
+                             <div  className={`${styles["img-text"]}`}>
+                                    <h2>Person four</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur asperiores sed est libero, repudiandae recusandae rem molestiae ut sunt veritatis rerum a nihil, impedit eaque nemo, fuga dolorum distinctio! Aspernatur.</p>
+                             </div>
+                          </div>
+                        </div>
+                        <div className='col-md-4'>
+                          <div className={`${styles["single-box"]}`}>
+                             <div className={`${styles["img-area"]}`}>
+                              <img src={clinet1} alt="" />
+                             </div>
+                             <div  className={`${styles["img-text"]}`}>
+                                    <h2>Person five</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur asperiores sed est libero, repudiandae recusandae rem molestiae ut sunt veritatis rerum a nihil, impedit eaque nemo, fuga dolorum distinctio! Aspernatur.</p>
+                             </div>
+                          </div>
+                        </div>
+                        <div className='col-md-4'>
+                          <div className={`${styles["single-box"]}`}>
+                             <div className={`${styles["img-area"]}`}>
+                              <img src={clinet1} alt="" />
+                             </div>
+                             <div  className={`${styles["img-text"]}`}>
+                                    <h2>Person six</h2>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur asperiores sed est libero, repudiandae recusandae rem molestiae ut sunt veritatis rerum a nihil, impedit eaque nemo, fuga dolorum distinctio! Aspernatur.</p>
+                             </div>
+                          </div>
+                        </div>  
+                    </div>
+                  </div>
+                 </div>
+                </div>
+                </div>
+           </div>
     </div>
   );
 };
