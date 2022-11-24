@@ -78,10 +78,19 @@ h1::after{
     color: #fff;
 }
 
-.img-box:hover::after{
+.img-box:hover:after{
     opacity: 1;
 }
 
 .img-box :hover ul{
     opacity: 1;
+}
+
+.img-box a:hover li{
+    color:#007bff;
+    border: 1px solid #007bff;
+}
+
+.img-box:after, .img-box ul, .img-box ul li{
+    transition: all 0.5s ease-in-out 0s;
 }

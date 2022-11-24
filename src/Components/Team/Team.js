@@ -1,7 +1,11 @@
 import React from "react";
 import { Container, Row } from 'react-bootstrap';
-import team from "../../image/assists/clinet/client.jpg"
+import team1 from "../../image/assists/team/member1.jpg"
+import team2 from "../../image/assists/team/member2.jpeg"
+import team3 from "../../image/assists/team/member3.jpg"
+import team4 from "../../image/assists/team/member4.png"
 import styles from './team.module.css'
+import {FaInstagram,FaFacebook ,FaLinkedin} from "react-icons/fa"
 
 const Team = () => {
   return (
@@ -11,11 +15,11 @@ const Team = () => {
       <Row>
         <div className={`${styles["profile"]} col-md-3 text-center`}>
           <div className={`${styles["img-box"]}`} >
-            <img src={team} className="img-fluid" alt="" />
+            <img src={team4} className="img-fluid" alt="" />
             <ul>
-          <a href=""> <li> <i class="fa fa-facebook"></i></li></a>
-          <a href=""> <li> <i class="fa fa-twitter"></i></li></a>
-          <a href=""> <li> <i class="fa fa-linkedin"></i></li></a>
+            <a href=""> <li> <FaInstagram/></li></a>
+          <a href=""> <li><FaFacebook/></li></a>
+          <a href=""> <li> <FaLinkedin/></li></a>
             </ul>
           </div>
           <h2>Person One</h2>
@@ -25,11 +29,11 @@ const Team = () => {
 
         <div className={`${styles["profile"]} col-md-3 text-center`}>
           <div className={`${styles["img-box"]}`} >
-            <img src={team} className="img-fluid"alt="" />
+            <img src={team1} className="img-fluid"alt="" />
             <ul>
-          <a href=""> <li> <i class="fa fa-facebook"></i></li></a>
-          <a href=""> <li> <i class="fa fa-twitter"></i></li></a>
-          <a href=""> <li> <i class="fa fa-linkedin"></i></li></a>
+          <a href=""> <li> <FaInstagram/></li></a>
+          <a href=""> <li><FaFacebook/></li></a>
+          <a href=""> <li> <FaLinkedin/></li></a>
             </ul>
           </div>
           <h2>Person One</h2>
@@ -39,11 +43,11 @@ const Team = () => {
 
         <div className={`${styles["profile"]} col-md-3 text-center`}>
           <div className={`${styles["img-box"]}`} >
-            <img src={team} className="img-fluid" alt="" />
+            <img src={team4} className="img-fluid" alt="" />
             <ul>
-          <a href=""> <li> <i class="fa fa-facebook"></i></li></a>
-          <a href=""> <li> <i class="fa fa-twitter"></i></li></a>
-          <a href=""> <li> <i class="fa fa-linkedin"></i></li></a>
+          <a href=""> <li> <FaInstagram/></li></a>
+          <a href=""> <li><FaFacebook/></li></a>
+          <a href=""> <li> <FaLinkedin/></li></a>
             </ul>
           </div>
           <h2>Person One</h2>
@@ -53,11 +57,11 @@ const Team = () => {
 
         <div className={`${styles["profile"]} col-md-3 text-center`}>
           <div className={`${styles["img-box"]}`} >
-            <img src={team} className="img-fluid" alt="" />
+            <img src={team3} className="img-fluid" alt="" />
             <ul>
-          <a href=""> <li> <i class="fa fa-facebook"></i></li></a>
-          <a href=""> <li> <i class="fa fa-twitter"></i></li></a>
-          <a href=""> <li> <i class="fa fa-linkedin"></i></li></a>
+            <a href=""> <li> <FaInstagram/></li></a>
+          <a href=""> <li><FaFacebook/></li></a>
+          <a href=""> <li> <FaLinkedin/></li></a>
             </ul>
           </div>
           <h2>Person One</h2>
