@@ -87,8 +87,8 @@ h1::after{
 }
 
 .img-box a:hover li{
-    color:#007bff;
-    border: 1px solid #007bff;
+    color:var(--grape_yellow);
+    border: 1px solid var(--grape_yellow);
 }
 
 .img-box:after, .img-box ul, .img-box ul li{

@@ -36,7 +36,7 @@ const Team = () => {
           <a href=""> <li> <FaLinkedin/></li></a>
             </ul>
           </div>
-          <h2>Person One</h2>
+          <h2>Person Two</h2>
           <h3>Founder/CEO</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -50,7 +50,7 @@ const Team = () => {
           <a href=""> <li> <FaLinkedin/></li></a>
             </ul>
           </div>
-          <h2>Person One</h2>
+          <h2>Person Three</h2>
           <h3>Founder/CEO</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -64,7 +64,7 @@ const Team = () => {
           <a href=""> <li> <FaLinkedin/></li></a>
             </ul>
           </div>
-          <h2>Person One</h2>
+          <h2>Person Four</h2>
           <h3>Founder/CEO</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
