@@ -50,7 +50,7 @@ const Client = () => {
                              </div>
                              <div  className={`${styles["img-text"]}`}>
                                     <h2>Person three</h2>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur asperiores sed est libero, repudiandae recusandae rem molestiae ut sunt veritatis rerum a nihil, impedit eaque nemo, fuga dolorum distinctio! Aspernatur.</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur asperiores sed est libero, repudiandae recusandae rem molestiae ut sunt veritatis rerum a nihil,</p>
                              </div>
                           </div>
                         </div>  
