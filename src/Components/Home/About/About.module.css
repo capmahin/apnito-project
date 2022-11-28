@@ -2,18 +2,18 @@
     padding: 0.3125rem 2.375rem;
     font-size: var(--fs-l);
     font-weight: var(--fw-med);
-    color: var(--grape_yellow);
+    color: #e74c3c;
     background-color: var(--white);
-    border: solid 2px var(--grape_yellow);
+    border: solid 2px #e74c3c;
   }
   
   .explore-button:hover {
     color: var(--white);
-    background-color: var(--grape_yellow);
-    border: solid 1px var(--grape_yellow);
+    background-color: #e74c3c;
+    border: solid 1px #e74c3c;
   }
   .explore-button:active {
     color: var(--white);
-    background-color: var(--grape_yellow);
+    background-color: #e74c3c;
     border: solid 1px var(--white);
   }
