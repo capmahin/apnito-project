@@ -1,7 +1,11 @@
 .container{
   margin-top: 6%;
-  background: linear-gradient(-100deg,#f1ee8e 50%, white 50%);
+  background: linear-gradient(-100deg,#e74c3c 50%, white 50%);
   height: 50vh;
+  border-radius: 15px;
+}
+.container:hover{
+  background: linear-gradient(-100deg, white 50%, #e74c3c 50%);
 }
 
 .img-text{
