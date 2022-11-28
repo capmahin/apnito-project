@@ -1,7 +1,6 @@
 import React from 'react';
 import slider1 from '../../image/assists/slider/Slider1.jpg'
-import slider2 from '../../image/assists/slider/Slider2.jpg'
-import slider3 from '../../image/assists/slider/slider3.jpg'
+import  './Slider.css'
 
 const Slider = () => {
   return (
@@ -18,20 +17,32 @@ const Slider = () => {
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
+        <div className="slider-btn">
+              <button className='btn btn-1'>Our service</button>
+              <button className='btn btn-2'>Our service</button>
+        </div>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={slider2} class="d-block w-100" alt="..."/>
+      <img src={slider1} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
+        <div className="slider-btn">
+              <button className='btn btn-1'>Our service</button>
+              <button className='btn btn-2'>Our service</button>
+        </div>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={slider3} class="d-block w-100" alt="..."/>
+      <img src={slider1} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
+        <div className="slider-btn">
+              <button className='btn btn-1'>Our service</button>
+              <button className='btn btn-2'>Our service</button>
+        </div>
       </div>
     </div>
   </div>
