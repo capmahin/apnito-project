@@ -1,6 +1,6 @@
 .container{
   margin-top: 6%;
-  background: linear-gradient(-100deg,var(--grape_yellow) 50%, white 50%);
+  background: linear-gradient(-100deg,#f1ee8e 50%, white 50%);
   height: 50vh;
 }
 
