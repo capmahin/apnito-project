@@ -18,27 +18,34 @@ const NavBars = () => {
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Contact Us</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Service
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Web Scraming</a></li>
+            <li><a class="dropdown-item" href="#">App Development</a></li>
+            <li><a class="dropdown-item" href="#">Website Development</a></li>
+            <li><a class="dropdown-item" href="#">Bot Development</a></li>
+          </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Online Learning Platform
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Online Terms</a></li>
+            <li><a class="dropdown-item" href="#">Offline Terms</a></li>
+            <li><a class="dropdown-item" href="#">PBL</a></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">WorkShop</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" >Contact Us</a>
+          <a class="nav-link" href="#" >Products</a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
