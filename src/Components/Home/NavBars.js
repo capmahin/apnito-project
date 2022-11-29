@@ -1,9 +1,13 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import "./NavBars.css"
 
 const NavBars = () => {
   return (
-    <div>
+   <Container fluid>
+    <Row>
+      <Col>
+      <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Apnito</a>
@@ -55,6 +59,9 @@ const NavBars = () => {
   </div>
 </nav>
     </div>
+      </Col>
+    </Row>
+   </Container>
   );
 };
 

@@ -10,7 +10,7 @@ import {FaInstagram,FaFacebook ,FaLinkedin} from "react-icons/fa"
 const Team = () => {
   return (
   <section className={`${styles["team"]}`}>
-     <Container className={`${styles["container"]}`}>
+     <Container className={`${styles["container"]}`} fluid>
       <h1>OUR TEAM</h1>
       <Row>
         <div className={`${styles["profile"]} col-md-3 text-center`}>

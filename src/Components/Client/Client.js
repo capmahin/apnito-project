@@ -9,15 +9,15 @@ import styles from "./Clinet.module.css";
 
 const Client = () => {
   return (
-    <Container className={`${styles["container"]} px-2`}>
+    <Container className={`${styles["container"]} px-2`} fluid>
            <Row>
                 <Col xs={12}>
                   <h1 className='text-dark'>Our Client</h1>
-                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                <ol className={`${styles["carousel-indicators"]}`}>
-                  {/* <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> */}
-                  </ol>
+                <div  id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div className={`${styles["carousel-indicators"]}`}>
+                {/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button> */}
+                  </div>
                   <div className="carousel-inner">
                   <div className="carousel-item active">
                     <div className='row'>

@@ -5,7 +5,7 @@ import styles from "./About.module.css";
 const About = () => {
     return (
         <div>
-            <Container className='py-3 '>
+            <Container className='py-3 ' fluid>
                 <Row>
                 <Col xs={6} className="py-5">
                   <h1 className='  text-dark text-center'>!! About !! </h1>

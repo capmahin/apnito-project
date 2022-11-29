@@ -1,10 +1,14 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import slider1 from '../../image/assists/slider/Slider2.jpg'
 import  './Slider.css'
 
 const Slider = () => {
   return (
-    <div>
+    <Container fluid>
+      <Row>
+        <Col>
+        <div>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -56,6 +60,9 @@ const Slider = () => {
   </button>
 </div>
     </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

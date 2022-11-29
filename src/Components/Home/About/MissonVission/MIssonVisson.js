@@ -4,7 +4,7 @@ import styles from "../About.module.css";
 const MIssonVisson = () => {
     return (
         <div>
-            <Container className='py-4'>
+            <Container className='py-4' fluid>
                 <Row>
                 <Col xs={6} className="px-5">
                   <h1 className='  text-dark text-center'>Mission </h1>
